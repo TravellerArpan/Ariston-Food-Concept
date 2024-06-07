@@ -1,0 +1,790 @@
+@charset "ISO-8859-1";
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;   
+}
+#head{
+    background-image: url() ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+#hideSideBar{
+    display: none;
+    
+}
+#nav{
+   background-color: #ffffff81;
+   padding-bottom: 40vh;
+
+}
+#nav> nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav> nav > #bars{
+    display: none;
+}
+#nav> nav > #right{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2rem;
+}
+#nav > nav > #right > ul{
+    padding: 0;
+    display: flex;
+}
+#nav > nav > #right > ul > li{
+    list-style-type: none;
+}
+#nav> nav > #right > ul > li > a{
+    text-decoration: none;
+    color: #272625;
+    font-size: 18px;
+    padding: 1.5rem  ;
+    transition: 1s;
+}
+#nav> nav > #right > ul > li > a:hover {
+    color: #40d317;
+    background-color: #f9f9f9ce;
+}
+#nav > nav > #right > ul > #drop {
+    position: relative;
+    
+}
+#nav > nav > #right > ul > #drop > #menu {
+    position: absolute;
+    top: 42%;
+    left: 0%;
+    display: none;
+    list-style-type: none;
+    background-color: #f9f9f9ce;
+    padding: 0 ; 
+    margin: 0;
+}
+#nav > nav > #right > ul > #drop:hover #menu{
+    display: block;
+}
+    
+#nav > nav > #right > ul > #drop > #menu >li > a {
+    text-decoration: none;
+    color: #272625;
+    font-size: 18px;
+    padding: 1rem 1.5rem ;
+    transition: 1s;
+    display: block;
+}
+#nav > nav > #right > ul > #drop > #menu >li >  a:hover{
+    color: #40d317;
+    background-color: #f9f9f9;
+}
+#nav> nav > #left{
+    display: flex;
+    justify-content: space-between;
+}
+#nav> nav > #left > img{
+    width: 6rem;
+    height: 5.5rem;
+    padding-left: 20px
+}
+#top{
+    width: 90%;
+    margin: auto ;
+    text-align: center;
+    position: relative;
+}
+#top > h1{
+    font-size: 5rem;
+    font-weight: 600;
+    color: #4eaf33;
+}
+#top > h3{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #272625;
+}
+.fa-angles-left{
+    position: absolute;
+    font-size: 4rem;
+    color: #272625;
+    text-align: left;
+    top: 75%;
+    left: 0%;
+}
+.fa-angles-right{
+    position: absolute;
+    font-size: 4rem;
+    text-align: right;
+    color: #272625;
+    top: 75%;
+    right: 0%;
+}
+
+/* ***************************************************************** */
+
+#first h1{
+    font-size: 55px;
+    text-align: center;
+}
+#first #cont{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4rem;
+    width: 90%;
+}
+#first #cont > div{
+    width: 30%;
+    height: 60vh;
+}
+#first #cont > div > .fa-star{
+    font-size: 55px;
+    color: white;
+    padding: 25px;
+    background-color: green;
+    border-radius: 50%;
+    margin: 30px 0px 10px 127px;
+}
+#first #cont > div > .fa-hand-holding-dollar{
+    font-size: 55px;
+    color: white;
+    padding: 25px;
+    background-color: green;
+    border-radius: 50%;
+    margin: 30px 0px 10px 127px;
+}
+#first #cont > div > .fa-thumbs-up{
+    font-size: 55px;
+    color: white;
+    padding: 25px;
+    background-color: green;
+    border-radius: 50%;
+    margin: 30px 0px 10px 127px;
+}
+#first > #cont > div > h3{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 400;
+    color: #272625;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+#first > #cont > div > h4{
+    /* color: #272625; */
+    font-size: 17px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+/* ***********************************************************8 */
+#sec{
+    color: #f5f5f5;
+    background-color: #272625;
+    margin-top: 5rem;
+    height: 100vh;
+    width: 100%;
+}
+#sec > h1{
+    color: #285791;
+    padding-top: 5rem;
+    font-size: 55px;
+    text-align: center;
+}
+#sec > #jar{
+    width: 90%;
+    text-align: center;
+    padding-left: 4.5rem;
+    letter-spacing: 1px;
+
+}
+#sec > #jar > p > a{
+    text-decoration: none;
+    transition: 1.5s;
+    color: rgb(0, 81, 255);
+    font-size: 18px;
+}
+#sec > #jar > p > a:hover{
+    color: #f5f5f5; 
+
+}
+
+/* **************************************************************** */
+#third{
+    margin: auto;
+    background-color: #f3f7f9;
+}
+#third > h2{
+    color: #4eaf33;
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    padding: 2rem;
+}
+#third > h4{
+    color: #272625;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 2.5rem;
+}
+#third > .card{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+#third > .card > div {
+    width: 30%;
+    background-color: #fff;
+    margin-bottom: 3.5rem;
+    overflow: hidden;
+}
+#third > .card > div >  img{
+    width: 100%;
+    height: 16rem; 
+    transition: 1s;
+}
+#third > .card > div >  img:hover{
+    width: 110%;
+    transform: scale(1.1);
+}
+#third > .card > div > h3{
+    text-align: center; 
+}
+
+#third > .card > div > h3 > a {
+    text-decoration: none;
+    color: #4eaf33;
+    transition: .8s;
+    font-weight: 500;
+    font-size: 23px;
+    letter-spacing: 1.5px;
+}
+#third > .card > div > h3 > a:hover{
+    color: #285791;
+}
+#forth{
+    background-image: url(./Images/wall.jpg);
+    /* background-color: #fff; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    margin: auto;
+}
+#forth > #four {
+    background-color: #285791c0;
+    width: 100%;
+}
+#forth > #four >  h2{
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    margin: 0rem;
+    padding: 2rem 0rem 0rem 0rem; 
+
+}
+#forth > #four >  h5{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+}
+#forth > #four >  #review{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#forth > #four > #review >  .rev{
+    width: 47%;
+    height: 15rem;
+}
+.fa-star{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-left: .8rem;
+}
+#review >  .rev > p{
+    color: #fff;
+    padding-left:.8rem;
+    display: inline-block;
+    padding-left: 1rem;
+}
+.fa-user{
+    color: #fff;
+    font-size: 1.5rem;
+    padding-left: .8rem;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #f3f7f9;
+}
+#footer > #foot{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 6rem;
+}
+#footer > #foot > ul> pre{
+    font-size: 1.35rem ; 
+    font-weight: 600;
+    color: #4eaf33;
+}
+#footer > #foot > ul > li{
+    list-style-type: none; 
+    padding: 8px; 
+}
+#footer > #foot > ul > li > a {
+    color: #285791;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+#footer > #foot > ul > li > a:hover{
+    color: #272625;
+}
+#footer > #appointment {
+    width: 40%;
+    margin: auto;
+}
+#footer > #appointment > h2{
+    font-size: 1.5rem ;
+    margin: 0; 
+    font-weight: 700;
+    color: #4eaf33;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+#footer > #appointment > form{
+    /* background-color: #fff; */
+    border: none;
+    border-radius: 1rem;
+    width: 60%;
+    margin-bottom: 3rem;
+}
+#footer > #appointment > form > input{
+    padding: 8px 20rem 8px 8px;
+    display: block;
+    margin-bottom: 10px;
+}
+#footer > #appointment > form > input::placeholder{
+    font-size: .9rem;
+    color: #285791;
+}
+#footer > #appointment > form > textarea::placeholder{
+    padding-left: 5px;
+    font-size: 1rem;
+    color: #285791;
+}
+#footer > #appointment > form > button{
+    padding: 10px 14.5rem;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #4eaf33;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    margin-top: 1rem;
+    transition: 1s;
+}
+#footer > #appointment > form > button:hover{
+    background-color:#388323 ;
+}
+#last{
+    background-color: #285791;
+    color: #fff;
+}
+#last > p{
+    margin: 0;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+#last > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-top: 1rem;
+}
+#last > ul > li{
+    list-style-type: none;
+} 
+#last > ul > li >  p{
+    color: #fff;
+    font-size: 2rem;
+}
+#last > ul > li >  a {
+    text-decoration: none;
+    padding-left: 1.5rem;
+}
+#last > ul > li > a > .fa-brands{
+    color: #fff;
+    font-size: 2rem;
+}
+#last > ul > li > a > .fa-brands:hover{
+    color: #ffffff5b;
+}
+span{
+    display: inline-block;
+    color: red;
+    width: 100%;
+    height: 1.6rem;
+}
+
+/* ********************************************* */
+@media(max-width:600px){
+    
+#head{
+    z-index: 0;
+    background-size: 200%;
+}    
+#nav{
+   padding-bottom: 20vh;
+}
+#nav> nav{
+    justify-content: center;
+    align-items: center;
+}
+#nav> nav > #bars{
+    display: block;
+    font-size: 1rem;
+    color: #272625;
+    background-color: #27262546;
+    display: inline-block;
+    padding: .5rem 5px;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    border-radius: 6px;
+}
+#nav> nav > #right{
+    display: none;
+}
+#nav> nav > #left > img{
+    width: 3rem;
+    height: 2.75rem;
+    padding-left: 0px;
+    margin-top: 1rem;
+    padding-left: 0px;
+    margin-top: 1rem;
+    padding-left: 0px
+}
+#sideCross{
+    /* display: block; */
+    text-align: right;
+    font-size: 1.6rem;
+    color: #fff;
+    padding: 15px;
+}
+.fa-xmark:hover {
+    color: #bbbbba;
+}
+#hideSideBar {
+    top : 0% ;
+    left: -50% ; 
+    z-index: 1;
+    position: absolute;
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    background-color: #285791;
+    transition: .5s ease-in-out;
+}    
+#hideSideBar > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#hideSideBar > ul > li > a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 0rem;
+}
+#hideSideBar > ul > li > a:hover{
+    background-color: #315989;
+}
+
+
+#hideSideBar > ul > #dropside {
+    position: relative; 
+}
+#hideSideBar > ul > #dropside > #menuside {
+    display: none;
+    padding: 0;
+    background-color: #305e96;
+    list-style-type: none;
+    position: absolute;
+    top: 9%;
+    left: 85%;
+    width: 80%;
+} 
+#hideSideBar > ul > #dropside:hover #menuside{
+    display: block;
+}
+#hideSideBar > ul > #dropside > #menuside > li > a  {
+    color: #fff;
+    display: block;
+    padding: 10px 0px;
+    text-decoration: none;
+    text-align: center;
+}
+#hideSideBar > ul > #dropside > #menuside > li > a:hover {
+    background-color: #315989;
+}
+
+#top{
+    width: 90%;
+    margin: auto ;
+    text-align: center;
+}
+#top > h1{
+    font-size: 2rem;
+}
+#top > h3{
+    font-size: 1.2rem;
+}
+.fa-angles-right{
+    font-size: 1.5rem;
+}
+.fa-angles-left{
+    font-size: 1.5rem;
+}
+
+/* ************************* */
+
+#first h1{
+    font-size: 2rem;
+    text-align: center;
+}
+#first #cont{
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0rem;
+    margin: auto;
+    width: 60%;
+    background-color: #f9f9f9;
+    
+}
+#first #cont > div{
+    width: 100%;
+    height: 30vh;
+}
+#first #cont > div > .fa-star{
+    font-size: 55px;
+    padding: 25px;
+    margin: 0px;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+#first #cont > div > .fa-hand-holding-dollar{
+    font-size: 55px;
+    padding: 25px;
+    margin: 0px;
+    margin-left: 5rem;
+}
+#first #cont > div > .fa-thumbs-up{
+    font-size: 55px;
+    padding: 25px;
+    margin: 0px;
+    margin-left: 5rem;
+}
+#first > #cont > div > h3{
+    font-size: 18px;
+}
+#first > #cont > div > h4{
+    font-size: 14px;
+}
+/* ***************** */
+#sec{  
+    margin-top: 3rem;
+    height: 80vh;
+    width: 100%;
+}
+#sec > h1{
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+#sec > #jar{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-left: 0rem;
+}
+#sec > #jar  > p {
+    font-size: 0.9rem;
+}
+
+/* ****************** */
+#third{
+    width: 100%;
+    padding-bottom: 1.5rem;
+}
+#third > h2{
+    font-size: 2rem;
+    padding: 2rem;
+    padding-bottom: 1rem;
+}
+#third > h4{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+#third > .card{
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+#third > .card > div {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#third > .card > div > h3 > a {
+    font-size: 20px;
+}
+/* ************************** */
+
+#forth{
+    background-size: 260%;
+}
+#forth > #four {
+    width: 100%;
+}
+#forth > #four >  h2{
+    font-size: 2rem;
+    padding: 1.5rem 0rem 1rem 0rem; 
+
+}
+#forth > #four >  h5{
+    width: 90%;
+    margin: auto;
+    font-size: .9rem;
+    text-align: center;
+}
+#forth > #four >  #review{
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#forth > #four > #review >  .rev{
+    width: 100%;
+    height: 25vh;
+}
+.fa-star{
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-left: 0.8rem;
+}
+#review >  .rev > p{
+    font-size: 1rem;
+    padding-left:.8rem;
+}
+.fa-user{
+    color: #fff;
+    font-size: 1.5rem;
+    padding-left: .8rem;
+}
+
+#footer{
+    flex-direction: column;
+    justify-content: center;
+}
+#footer > #foot{
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0rem;
+    margin-top: 0;
+}
+#footer > #foot > ul {
+    padding: 0;
+    margin-top: 0;
+}
+#footer > #foot > ul > li{
+    list-style-type: none; 
+    padding: 8px; 
+}
+#footer > #foot > ul > li > a {
+    font-size: .9rem;
+    color: #285791;
+}
+#footer > #appointment {
+    width: 85%;
+}
+#footer > #appointment > h2{
+    font-size: 1.5rem ;
+    margin: 0; 
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+#footer > #appointment > form{
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+#footer > #appointment > form > input{
+    width: 100%;
+    padding: 8px 0rem 8px 8px;
+    display: block;
+    margin-bottom: 10px;
+}
+#footer > #appointment > form > input::placeholder{
+    font-size: .8rem;
+}
+#footer > #appointment > form > textarea{
+    display: none;
+}
+#footer > #appointment > form > textarea::placeholder{
+    width: 100%;
+    padding-left: 5px;
+    font-size: .8rem;
+}
+#footer > #appointment > form > button{
+    width: 25%;
+    margin: auto;
+    padding: 10px 0rem;
+    font-size: .9rem;
+}
+
+#last > p{
+    font-size: .9rem;
+    padding-bottom: .5rem;
+    margin-top: 0rem;
+}
+#last > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-top: 0rem;
+}
+#last > ul > li >  p{
+    color: #fff;
+    width: 90%;
+    margin: auto;
+    font-size: 1.8rem;
+}
+#last > ul > li > a > .fa-brands{
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+
+
+
+}
